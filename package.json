@@ -1,0 +1,34 @@
+{
+	"name": "database-benchmarks",
+	"version": "0.1.0",
+	"author": "Leeroy Brun <leeroy.brun@gmail.com>",
+	"description": "Benchmarking some Node.js database : NeDB, SQLite, Sequelize, MongoDB",
+	"contributors": [ 
+		{
+			"name": "Leeroy Brun",
+			"email": "leeroy.brun@gmail.com"
+		} 
+	],
+	"scripts": {
+		"start": "node ./start.js"
+	},
+	"main": "./start",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/leeroybrun/node-database-benchmarks.git"
+	},
+	"keywords": [
+		"database",
+		"benchmarks",
+		"benchmarking",
+		"nedb",
+		"sqlite",
+		"sequelizejs",
+		"mongodb"
+	],
+	"dependencies" : {
+		"commander" : "*",
+		"benchmark" : "*"
+	},
+	"license": "MIT"
+}
